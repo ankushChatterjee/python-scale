@@ -17,3 +17,7 @@ def test_multiply():
 def test_divide():
     assert divide(6, 3) == 2
     assert divide(5, 0) is None
+    
+def test_divide2():
+    assert divide(8, 4) == 2
+    assert divide(5, 0) is None
