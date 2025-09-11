@@ -1,9 +1,9 @@
 import pytest
 from calculator20 import add, subtract, multiply, divide
 
-# dummy
+# dummy123
 def test_add():
-    assert add(2, 3) == 6
+    assert add(2, 3) == 5
 
 def test_subtract():
     assert subtract(5, 3) == 2
