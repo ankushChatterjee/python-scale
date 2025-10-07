@@ -1,0 +1,6 @@
+config:
+  ignore:
+    - a.md
+    - "**/test_calculator81.py"
+  enableBazelOptimization: true
+  bazelFileCountThreshold: 100
