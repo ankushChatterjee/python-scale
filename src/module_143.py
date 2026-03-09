@@ -1,14 +1,4 @@
-"""Module 143: arithmetic helpers."""
+"""Module 143: arithmetic helper — min."""
 
 def min_143(a, b):
     return a if a < b else b
-
-def max_143(a, b):
-    return a if a > b else b
-
-def modulo_143(a, b):
-    return a % b
-
-def divide_143(a, b):
-    if b == 0: raise ValueError('division by zero')
-    return a / b

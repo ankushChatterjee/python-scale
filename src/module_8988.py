@@ -1,0 +1,5 @@
+"""Module 8988: arithmetic helper — divide."""
+
+def divide_8988(a, b):
+    if b == 0: raise ValueError('division by zero')
+    return a / b

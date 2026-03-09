@@ -3,8 +3,8 @@
   "name": "service-config-95",
   "version": "1.5.0",
   "enabled": true,
-  "timeout_ms": 3729,
-  "max_retries": 7,
+  "timeout_ms": 113,
+  "max_retries": 9,
   "endpoints": [
     "https://api-95.example.com/v1",
     "https://api-95.example.com/v2"
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 77.0,
-    "mem_mb": 2066,
-    "rps": 6885
+    "cpu_pct": 92.4,
+    "mem_mb": 2461,
+    "rps": 3328
   }
 }

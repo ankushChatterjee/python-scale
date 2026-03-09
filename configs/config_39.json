@@ -3,8 +3,8 @@
   "name": "service-config-39",
   "version": "1.9.4",
   "enabled": false,
-  "timeout_ms": 4847,
-  "max_retries": 6,
+  "timeout_ms": 3688,
+  "max_retries": 9,
   "endpoints": [
     "https://api-39.example.com/v1",
     "https://api-39.example.com/v2"
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 85.6,
-    "mem_mb": 625,
-    "rps": 4935
+    "cpu_pct": 75.8,
+    "mem_mb": 1271,
+    "rps": 3781
   }
 }

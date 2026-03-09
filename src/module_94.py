@@ -1,13 +1,4 @@
-"""Module 94: arithmetic helpers."""
+"""Module 94: arithmetic helper — power."""
 
-def min_94(a, b):
-    return a if a < b else b
-
-def max_94(a, b):
-    return a if a > b else b
-
-def multiply_94(a, b):
-    return a * b
-
-def add_94(a, b):
-    return a + b
+def power_94(a, b):
+    return a ** b

@@ -3,8 +3,8 @@
   "name": "service-config-35",
   "version": "1.5.0",
   "enabled": true,
-  "timeout_ms": 3342,
-  "max_retries": 5,
+  "timeout_ms": 801,
+  "max_retries": 8,
   "endpoints": [
     "https://api-35.example.com/v1",
     "https://api-35.example.com/v2"
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 60.3,
-    "mem_mb": 3799,
-    "rps": 903
+    "cpu_pct": 88.6,
+    "mem_mb": 3371,
+    "rps": 8827
   }
 }

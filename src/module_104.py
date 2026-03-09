@@ -1,13 +1,4 @@
-"""Module 104: arithmetic helpers."""
+"""Module 104: arithmetic helper — max."""
 
-def multiply_104(a, b):
-    return a * b
-
-def subtract_104(a, b):
-    return a - b
-
-def min_104(a, b):
-    return a if a < b else b
-
-def power_104(a, b):
-    return a ** b
+def max_104(a, b):
+    return a if a > b else b

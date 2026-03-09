@@ -3,8 +3,8 @@
   "name": "service-config-98",
   "version": "1.8.3",
   "enabled": true,
-  "timeout_ms": 4086,
-  "max_retries": 9,
+  "timeout_ms": 2633,
+  "max_retries": 7,
   "endpoints": [
     "https://api-98.example.com/v1",
     "https://api-98.example.com/v2"
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 83.3,
-    "mem_mb": 442,
-    "rps": 3712
+    "cpu_pct": 71.4,
+    "mem_mb": 3111,
+    "rps": 4944
   }
 }

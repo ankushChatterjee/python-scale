@@ -1,16 +1,19 @@
-"""Tests for module 76."""
+"""Tests for test module 76 — covers src modules [301, 302, 303, 304]."""
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
-from module_76 import multiply_76, add_76, modulo_76, min_76
+from module_301 import modulo_301
+from module_302 import power_302
+from module_303 import min_303
+from module_304 import max_304
 
-def test_multiply_76():
-    assert multiply_76(3, 7) == 21
+def test_modulo_301():
+    assert modulo_301(10, 3) == 1
 
-def test_add_76():
-    assert add_76(2, 3) == 5
+def test_power_302():
+    assert power_302(2, 8) == 256
 
-def test_modulo_76():
-    assert modulo_76(10, 3) == 1
+def test_min_303():
+    assert min_303(3, 7) == 3
 
-def test_min_76():
-    assert min_76(3, 7) == 3
+def test_max_304():
+    assert max_304(3, 7) == 7

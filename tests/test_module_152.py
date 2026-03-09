@@ -1,16 +1,19 @@
-"""Tests for module 152."""
+"""Tests for test module 152 — covers src modules [605, 606, 607, 608]."""
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
-from module_152 import max_152, divide_152, add_152, subtract_152
+from module_605 import modulo_605
+from module_606 import power_606
+from module_607 import min_607
+from module_608 import max_608
 
-def test_max_152():
-    assert max_152(3, 7) == 7
+def test_modulo_605():
+    assert modulo_605(10, 3) == 1
 
-def test_divide_152():
-    assert divide_152(10, 2) == 5.0
+def test_power_606():
+    assert power_606(2, 8) == 256
 
-def test_add_152():
-    assert add_152(2, 3) == 5
+def test_min_607():
+    assert min_607(3, 7) == 3
 
-def test_subtract_152():
-    assert subtract_152(10, 4) == 6
+def test_max_608():
+    assert max_608(3, 7) == 7

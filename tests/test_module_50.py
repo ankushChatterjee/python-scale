@@ -1,16 +1,19 @@
-"""Tests for module 50."""
+"""Tests for test module 50 — covers src modules [197, 198, 199, 200]."""
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
-from module_50 import divide_50, subtract_50, add_50, multiply_50
+from module_197 import modulo_197
+from module_198 import power_198
+from module_199 import min_199
+from module_200 import max_200
 
-def test_divide_50():
-    assert divide_50(10, 2) == 5.0
+def test_modulo_197():
+    assert modulo_197(10, 3) == 1
 
-def test_subtract_50():
-    assert subtract_50(10, 4) == 6
+def test_power_198():
+    assert power_198(2, 8) == 256
 
-def test_add_50():
-    assert add_50(2, 3) == 5
+def test_min_199():
+    assert min_199(3, 7) == 3
 
-def test_multiply_50():
-    assert multiply_50(3, 7) == 21
+def test_max_200():
+    assert max_200(3, 7) == 7

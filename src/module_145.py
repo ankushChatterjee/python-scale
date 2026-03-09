@@ -1,13 +1,4 @@
-"""Module 145: arithmetic helpers."""
+"""Module 145: arithmetic helper — add."""
 
-def modulo_145(a, b):
-    return a % b
-
-def min_145(a, b):
-    return a if a < b else b
-
-def subtract_145(a, b):
-    return a - b
-
-def multiply_145(a, b):
-    return a * b
+def add_145(a, b):
+    return a + b

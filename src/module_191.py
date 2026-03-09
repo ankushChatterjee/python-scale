@@ -1,13 +1,4 @@
-"""Module 191: arithmetic helpers."""
+"""Module 191: arithmetic helper — min."""
 
-def modulo_191(a, b):
-    return a % b
-
-def max_191(a, b):
-    return a if a > b else b
-
-def power_191(a, b):
-    return a ** b
-
-def multiply_191(a, b):
-    return a * b
+def min_191(a, b):
+    return a if a < b else b

@@ -1,14 +1,4 @@
-"""Module 83: arithmetic helpers."""
+"""Module 83: arithmetic helper — multiply."""
 
-def add_83(a, b):
-    return a + b
-
-def divide_83(a, b):
-    if b == 0: raise ValueError('division by zero')
-    return a / b
-
-def modulo_83(a, b):
-    return a % b
-
-def power_83(a, b):
-    return a ** b
+def multiply_83(a, b):
+    return a * b

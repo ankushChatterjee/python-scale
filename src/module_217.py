@@ -1,13 +1,4 @@
-"""Module 217: arithmetic helpers."""
+"""Module 217: arithmetic helper — add."""
 
-def min_217(a, b):
-    return a if a < b else b
-
-def modulo_217(a, b):
-    return a % b
-
-def max_217(a, b):
-    return a if a > b else b
-
-def power_217(a, b):
-    return a ** b
+def add_217(a, b):
+    return a + b

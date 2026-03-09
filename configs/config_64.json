@@ -3,7 +3,7 @@
   "name": "service-config-64",
   "version": "1.4.4",
   "enabled": true,
-  "timeout_ms": 4923,
+  "timeout_ms": 1773,
   "max_retries": 6,
   "endpoints": [
     "https://api-64.example.com/v1",
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 60.6,
-    "mem_mb": 1342,
-    "rps": 958
+    "cpu_pct": 68.4,
+    "mem_mb": 1877,
+    "rps": 2244
   }
 }

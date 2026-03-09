@@ -1,13 +1,4 @@
-"""Module 33: arithmetic helpers."""
+"""Module 33: arithmetic helper — add."""
 
-def max_33(a, b):
-    return a if a > b else b
-
-def modulo_33(a, b):
-    return a % b
-
-def multiply_33(a, b):
-    return a * b
-
-def min_33(a, b):
-    return a if a < b else b
+def add_33(a, b):
+    return a + b

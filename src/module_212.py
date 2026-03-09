@@ -1,13 +1,5 @@
-"""Module 212: arithmetic helpers."""
+"""Module 212: arithmetic helper — divide."""
 
-def power_212(a, b):
-    return a ** b
-
-def subtract_212(a, b):
-    return a - b
-
-def add_212(a, b):
-    return a + b
-
-def multiply_212(a, b):
-    return a * b
+def divide_212(a, b):
+    if b == 0: raise ValueError('division by zero')
+    return a / b

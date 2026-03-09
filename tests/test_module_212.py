@@ -1,16 +1,19 @@
-"""Tests for module 212."""
+"""Tests for test module 212 — covers src modules [845, 846, 847, 848]."""
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
-from module_212 import power_212, subtract_212, add_212, multiply_212
+from module_845 import modulo_845
+from module_846 import power_846
+from module_847 import min_847
+from module_848 import max_848
 
-def test_power_212():
-    assert power_212(2, 8) == 256
+def test_modulo_845():
+    assert modulo_845(10, 3) == 1
 
-def test_subtract_212():
-    assert subtract_212(10, 4) == 6
+def test_power_846():
+    assert power_846(2, 8) == 256
 
-def test_add_212():
-    assert add_212(2, 3) == 5
+def test_min_847():
+    assert min_847(3, 7) == 3
 
-def test_multiply_212():
-    assert multiply_212(3, 7) == 21
+def test_max_848():
+    assert max_848(3, 7) == 7

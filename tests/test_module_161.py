@@ -1,16 +1,19 @@
-"""Tests for module 161."""
+"""Tests for test module 161 — covers src modules [641, 642, 643, 644]."""
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
-from module_161 import add_161, max_161, power_161, divide_161
+from module_641 import add_641
+from module_642 import subtract_642
+from module_643 import multiply_643
+from module_644 import divide_644
 
-def test_add_161():
-    assert add_161(2, 3) == 5
+def test_add_641():
+    assert add_641(2, 3) == 5
 
-def test_max_161():
-    assert max_161(3, 7) == 7
+def test_subtract_642():
+    assert subtract_642(10, 4) == 6
 
-def test_power_161():
-    assert power_161(2, 8) == 256
+def test_multiply_643():
+    assert multiply_643(3, 7) == 21
 
-def test_divide_161():
-    assert divide_161(10, 2) == 5.0
+def test_divide_644():
+    assert divide_644(10, 2) == 5.0

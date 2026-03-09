@@ -1,13 +1,5 @@
-"""Module 172: arithmetic helpers."""
+"""Module 172: arithmetic helper — divide."""
 
-def modulo_172(a, b):
-    return a % b
-
-def min_172(a, b):
-    return a if a < b else b
-
-def multiply_172(a, b):
-    return a * b
-
-def subtract_172(a, b):
-    return a - b
+def divide_172(a, b):
+    if b == 0: raise ValueError('division by zero')
+    return a / b

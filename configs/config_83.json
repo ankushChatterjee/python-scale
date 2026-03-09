@@ -3,8 +3,8 @@
   "name": "service-config-83",
   "version": "1.3.3",
   "enabled": true,
-  "timeout_ms": 4834,
-  "max_retries": 9,
+  "timeout_ms": 2039,
+  "max_retries": 3,
   "endpoints": [
     "https://api-83.example.com/v1",
     "https://api-83.example.com/v2"
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 67.4,
-    "mem_mb": 2945,
-    "rps": 8000
+    "cpu_pct": 94.2,
+    "mem_mb": 3576,
+    "rps": 3000
   }
 }

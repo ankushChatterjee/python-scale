@@ -1,16 +1,19 @@
-"""Tests for module 117."""
+"""Tests for test module 117 — covers src modules [465, 466, 467, 468]."""
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
-from module_117 import power_117, divide_117, modulo_117, max_117
+from module_465 import add_465
+from module_466 import subtract_466
+from module_467 import multiply_467
+from module_468 import divide_468
 
-def test_power_117():
-    assert power_117(2, 8) == 256
+def test_add_465():
+    assert add_465(2, 3) == 5
 
-def test_divide_117():
-    assert divide_117(10, 2) == 5.0
+def test_subtract_466():
+    assert subtract_466(10, 4) == 6
 
-def test_modulo_117():
-    assert modulo_117(10, 3) == 1
+def test_multiply_467():
+    assert multiply_467(3, 7) == 21
 
-def test_max_117():
-    assert max_117(3, 7) == 7
+def test_divide_468():
+    assert divide_468(10, 2) == 5.0

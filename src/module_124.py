@@ -1,13 +1,5 @@
-"""Module 124: arithmetic helpers."""
+"""Module 124: arithmetic helper — divide."""
 
-def min_124(a, b):
-    return a if a < b else b
-
-def power_124(a, b):
-    return a ** b
-
-def multiply_124(a, b):
-    return a * b
-
-def modulo_124(a, b):
-    return a % b
+def divide_124(a, b):
+    if b == 0: raise ValueError('division by zero')
+    return a / b

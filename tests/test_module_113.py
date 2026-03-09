@@ -1,16 +1,19 @@
-"""Tests for module 113."""
+"""Tests for test module 113 — covers src modules [449, 450, 451, 452]."""
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
-from module_113 import power_113, max_113, modulo_113, divide_113
+from module_449 import add_449
+from module_450 import subtract_450
+from module_451 import multiply_451
+from module_452 import divide_452
 
-def test_power_113():
-    assert power_113(2, 8) == 256
+def test_add_449():
+    assert add_449(2, 3) == 5
 
-def test_max_113():
-    assert max_113(3, 7) == 7
+def test_subtract_450():
+    assert subtract_450(10, 4) == 6
 
-def test_modulo_113():
-    assert modulo_113(10, 3) == 1
+def test_multiply_451():
+    assert multiply_451(3, 7) == 21
 
-def test_divide_113():
-    assert divide_113(10, 2) == 5.0
+def test_divide_452():
+    assert divide_452(10, 2) == 5.0

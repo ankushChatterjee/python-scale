@@ -1,16 +1,19 @@
-"""Tests for module 22."""
+"""Tests for test module 22 — covers src modules [85, 86, 87, 88]."""
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
-from module_22 import divide_22, power_22, multiply_22, add_22
+from module_85 import modulo_85
+from module_86 import power_86
+from module_87 import min_87
+from module_88 import max_88
 
-def test_divide_22():
-    assert divide_22(10, 2) == 5.0
+def test_modulo_85():
+    assert modulo_85(10, 3) == 1
 
-def test_power_22():
-    assert power_22(2, 8) == 256
+def test_power_86():
+    assert power_86(2, 8) == 256
 
-def test_multiply_22():
-    assert multiply_22(3, 7) == 21
+def test_min_87():
+    assert min_87(3, 7) == 3
 
-def test_add_22():
-    assert add_22(2, 3) == 5
+def test_max_88():
+    assert max_88(3, 7) == 7

@@ -3,8 +3,8 @@
   "name": "service-config-87",
   "version": "1.7.2",
   "enabled": false,
-  "timeout_ms": 315,
-  "max_retries": 10,
+  "timeout_ms": 3870,
+  "max_retries": 6,
   "endpoints": [
     "https://api-87.example.com/v1",
     "https://api-87.example.com/v2"
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 92.5,
-    "mem_mb": 3653,
-    "rps": 4481
+    "cpu_pct": 70.7,
+    "mem_mb": 3513,
+    "rps": 3828
   }
 }

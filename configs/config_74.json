@@ -3,8 +3,8 @@
   "name": "service-config-74",
   "version": "1.4.4",
   "enabled": true,
-  "timeout_ms": 1037,
-  "max_retries": 9,
+  "timeout_ms": 4240,
+  "max_retries": 8,
   "endpoints": [
     "https://api-74.example.com/v1",
     "https://api-74.example.com/v2"
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 85.2,
-    "mem_mb": 1136,
-    "rps": 7146
+    "cpu_pct": 68.8,
+    "mem_mb": 3975,
+    "rps": 932
   }
 }

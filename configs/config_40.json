@@ -3,8 +3,8 @@
   "name": "service-config-40",
   "version": "1.0.0",
   "enabled": true,
-  "timeout_ms": 2776,
-  "max_retries": 7,
+  "timeout_ms": 624,
+  "max_retries": 6,
   "endpoints": [
     "https://api-40.example.com/v1",
     "https://api-40.example.com/v2"
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 66.1,
-    "mem_mb": 797,
-    "rps": 8937
+    "cpu_pct": 60.7,
+    "mem_mb": 2524,
+    "rps": 3870
   }
 }

@@ -3,8 +3,8 @@
   "name": "service-config-36",
   "version": "1.6.1",
   "enabled": false,
-  "timeout_ms": 4169,
-  "max_retries": 5,
+  "timeout_ms": 1130,
+  "max_retries": 3,
   "endpoints": [
     "https://api-36.example.com/v1",
     "https://api-36.example.com/v2"
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 87.2,
-    "mem_mb": 1198,
-    "rps": 5872
+    "cpu_pct": 83.1,
+    "mem_mb": 2507,
+    "rps": 2805
   }
 }

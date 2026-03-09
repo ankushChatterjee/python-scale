@@ -3,8 +3,8 @@
   "name": "service-config-18",
   "version": "1.8.3",
   "enabled": false,
-  "timeout_ms": 916,
-  "max_retries": 9,
+  "timeout_ms": 1976,
+  "max_retries": 1,
   "endpoints": [
     "https://api-18.example.com/v1",
     "https://api-18.example.com/v2"
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 91.9,
-    "mem_mb": 318,
-    "rps": 2461
+    "cpu_pct": 88.2,
+    "mem_mb": 1899,
+    "rps": 4486
   }
 }

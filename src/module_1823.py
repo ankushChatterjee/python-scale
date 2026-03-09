@@ -1,0 +1,4 @@
+"""Module 1823: arithmetic helper — min."""
+
+def min_1823(a, b):
+    return a if a < b else b

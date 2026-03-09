@@ -3,8 +3,8 @@
   "name": "service-config-96",
   "version": "1.6.1",
   "enabled": false,
-  "timeout_ms": 2337,
-  "max_retries": 4,
+  "timeout_ms": 3083,
+  "max_retries": 7,
   "endpoints": [
     "https://api-96.example.com/v1",
     "https://api-96.example.com/v2"
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 86.4,
-    "mem_mb": 722,
-    "rps": 5755
+    "cpu_pct": 62.4,
+    "mem_mb": 2976,
+    "rps": 5509
   }
 }

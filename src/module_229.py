@@ -1,14 +1,4 @@
-"""Module 229: arithmetic helpers."""
-
-def divide_229(a, b):
-    if b == 0: raise ValueError('division by zero')
-    return a / b
-
-def max_229(a, b):
-    return a if a > b else b
-
-def add_229(a, b):
-    return a + b
+"""Module 229: arithmetic helper — modulo."""
 
 def modulo_229(a, b):
     return a % b

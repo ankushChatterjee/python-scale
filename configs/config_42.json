@@ -3,8 +3,8 @@
   "name": "service-config-42",
   "version": "1.2.2",
   "enabled": false,
-  "timeout_ms": 2205,
-  "max_retries": 8,
+  "timeout_ms": 1975,
+  "max_retries": 2,
   "endpoints": [
     "https://api-42.example.com/v1",
     "https://api-42.example.com/v2"
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 93.9,
-    "mem_mb": 1464,
-    "rps": 5649
+    "cpu_pct": 91.7,
+    "mem_mb": 3777,
+    "rps": 5513
   }
 }

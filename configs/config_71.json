@@ -3,7 +3,7 @@
   "name": "service-config-71",
   "version": "1.1.1",
   "enabled": true,
-  "timeout_ms": 638,
+  "timeout_ms": 948,
   "max_retries": 3,
   "endpoints": [
     "https://api-71.example.com/v1",
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 69.6,
-    "mem_mb": 2849,
-    "rps": 9690
+    "cpu_pct": 69.3,
+    "mem_mb": 3900,
+    "rps": 1853
   }
 }

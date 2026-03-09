@@ -3,8 +3,8 @@
   "name": "service-config-60",
   "version": "1.0.0",
   "enabled": false,
-  "timeout_ms": 4903,
-  "max_retries": 4,
+  "timeout_ms": 661,
+  "max_retries": 10,
   "endpoints": [
     "https://api-60.example.com/v1",
     "https://api-60.example.com/v2"
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 88.5,
-    "mem_mb": 1210,
-    "rps": 5483
+    "cpu_pct": 62.4,
+    "mem_mb": 3786,
+    "rps": 3953
   }
 }

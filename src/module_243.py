@@ -1,13 +1,4 @@
-"""Module 243: arithmetic helpers."""
+"""Module 243: arithmetic helper — multiply."""
 
-def power_243(a, b):
-    return a ** b
-
-def max_243(a, b):
-    return a if a > b else b
-
-def add_243(a, b):
-    return a + b
-
-def subtract_243(a, b):
-    return a - b
+def multiply_243(a, b):
+    return a * b

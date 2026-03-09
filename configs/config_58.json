@@ -3,8 +3,8 @@
   "name": "service-config-58",
   "version": "1.8.3",
   "enabled": true,
-  "timeout_ms": 514,
-  "max_retries": 6,
+  "timeout_ms": 510,
+  "max_retries": 10,
   "endpoints": [
     "https://api-58.example.com/v1",
     "https://api-58.example.com/v2"
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 68.5,
-    "mem_mb": 771,
-    "rps": 9350
+    "cpu_pct": 76.7,
+    "mem_mb": 4021,
+    "rps": 8801
   }
 }

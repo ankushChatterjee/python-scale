@@ -1,16 +1,19 @@
-"""Tests for module 111."""
+"""Tests for test module 111 — covers src modules [441, 442, 443, 444]."""
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
-from module_111 import add_111, power_111, subtract_111, divide_111
+from module_441 import add_441
+from module_442 import subtract_442
+from module_443 import multiply_443
+from module_444 import divide_444
 
-def test_add_111():
-    assert add_111(2, 3) == 5
+def test_add_441():
+    assert add_441(2, 3) == 5
 
-def test_power_111():
-    assert power_111(2, 8) == 256
+def test_subtract_442():
+    assert subtract_442(10, 4) == 6
 
-def test_subtract_111():
-    assert subtract_111(10, 4) == 6
+def test_multiply_443():
+    assert multiply_443(3, 7) == 21
 
-def test_divide_111():
-    assert divide_111(10, 2) == 5.0
+def test_divide_444():
+    assert divide_444(10, 2) == 5.0

@@ -3,8 +3,8 @@
   "name": "service-config-10",
   "version": "1.0.0",
   "enabled": true,
-  "timeout_ms": 2884,
-  "max_retries": 9,
+  "timeout_ms": 3200,
+  "max_retries": 2,
   "endpoints": [
     "https://api-10.example.com/v1",
     "https://api-10.example.com/v2"
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 69.4,
-    "mem_mb": 266,
-    "rps": 4734
+    "cpu_pct": 79.3,
+    "mem_mb": 3653,
+    "rps": 6025
   }
 }

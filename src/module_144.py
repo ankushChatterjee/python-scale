@@ -1,14 +1,4 @@
-"""Module 144: arithmetic helpers."""
+"""Module 144: arithmetic helper — max."""
 
-def multiply_144(a, b):
-    return a * b
-
-def power_144(a, b):
-    return a ** b
-
-def divide_144(a, b):
-    if b == 0: raise ValueError('division by zero')
-    return a / b
-
-def min_144(a, b):
-    return a if a < b else b
+def max_144(a, b):
+    return a if a > b else b

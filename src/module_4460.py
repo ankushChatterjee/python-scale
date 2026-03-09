@@ -1,0 +1,5 @@
+"""Module 4460: arithmetic helper — divide."""
+
+def divide_4460(a, b):
+    if b == 0: raise ValueError('division by zero')
+    return a / b

@@ -1,13 +1,5 @@
-"""Module 20: arithmetic helpers."""
+"""Module 20: arithmetic helper — divide."""
 
-def multiply_20(a, b):
-    return a * b
-
-def modulo_20(a, b):
-    return a % b
-
-def power_20(a, b):
-    return a ** b
-
-def subtract_20(a, b):
-    return a - b
+def divide_20(a, b):
+    if b == 0: raise ValueError('division by zero')
+    return a / b

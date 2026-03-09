@@ -1,14 +1,4 @@
-"""Module 79: arithmetic helpers."""
+"""Module 79: arithmetic helper — min."""
 
-def subtract_79(a, b):
-    return a - b
-
-def divide_79(a, b):
-    if b == 0: raise ValueError('division by zero')
-    return a / b
-
-def power_79(a, b):
-    return a ** b
-
-def modulo_79(a, b):
-    return a % b
+def min_79(a, b):
+    return a if a < b else b

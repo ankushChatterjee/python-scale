@@ -1,16 +1,19 @@
-"""Tests for module 86."""
+"""Tests for test module 86 — covers src modules [341, 342, 343, 344]."""
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
-from module_86 import divide_86, multiply_86, min_86, subtract_86
+from module_341 import modulo_341
+from module_342 import power_342
+from module_343 import min_343
+from module_344 import max_344
 
-def test_divide_86():
-    assert divide_86(10, 2) == 5.0
+def test_modulo_341():
+    assert modulo_341(10, 3) == 1
 
-def test_multiply_86():
-    assert multiply_86(3, 7) == 21
+def test_power_342():
+    assert power_342(2, 8) == 256
 
-def test_min_86():
-    assert min_86(3, 7) == 3
+def test_min_343():
+    assert min_343(3, 7) == 3
 
-def test_subtract_86():
-    assert subtract_86(10, 4) == 6
+def test_max_344():
+    assert max_344(3, 7) == 7

@@ -1,14 +1,4 @@
-"""Module 118: arithmetic helpers."""
+"""Module 118: arithmetic helper — power."""
 
-def subtract_118(a, b):
-    return a - b
-
-def divide_118(a, b):
-    if b == 0: raise ValueError('division by zero')
-    return a / b
-
-def modulo_118(a, b):
-    return a % b
-
-def max_118(a, b):
-    return a if a > b else b
+def power_118(a, b):
+    return a ** b

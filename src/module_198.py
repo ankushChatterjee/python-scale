@@ -1,13 +1,4 @@
-"""Module 198: arithmetic helpers."""
+"""Module 198: arithmetic helper — power."""
 
-def max_198(a, b):
-    return a if a > b else b
-
-def modulo_198(a, b):
-    return a % b
-
-def min_198(a, b):
-    return a if a < b else b
-
-def multiply_198(a, b):
-    return a * b
+def power_198(a, b):
+    return a ** b

@@ -3,8 +3,8 @@
   "name": "service-config-33",
   "version": "1.3.3",
   "enabled": false,
-  "timeout_ms": 4058,
-  "max_retries": 2,
+  "timeout_ms": 4102,
+  "max_retries": 1,
   "endpoints": [
     "https://api-33.example.com/v1",
     "https://api-33.example.com/v2"
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 68.3,
-    "mem_mb": 2598,
-    "rps": 5981
+    "cpu_pct": 63.9,
+    "mem_mb": 1742,
+    "rps": 5138
   }
 }

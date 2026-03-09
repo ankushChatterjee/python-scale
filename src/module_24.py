@@ -1,13 +1,4 @@
-"""Module 24: arithmetic helpers."""
+"""Module 24: arithmetic helper — max."""
 
-def min_24(a, b):
-    return a if a < b else b
-
-def multiply_24(a, b):
-    return a * b
-
-def add_24(a, b):
-    return a + b
-
-def subtract_24(a, b):
-    return a - b
+def max_24(a, b):
+    return a if a > b else b

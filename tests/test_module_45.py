@@ -1,16 +1,19 @@
-"""Tests for module 45."""
+"""Tests for test module 45 — covers src modules [177, 178, 179, 180]."""
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
-from module_45 import multiply_45, power_45, divide_45, modulo_45
+from module_177 import add_177
+from module_178 import subtract_178
+from module_179 import multiply_179
+from module_180 import divide_180
 
-def test_multiply_45():
-    assert multiply_45(3, 7) == 21
+def test_add_177():
+    assert add_177(2, 3) == 5
 
-def test_power_45():
-    assert power_45(2, 8) == 256
+def test_subtract_178():
+    assert subtract_178(10, 4) == 6
 
-def test_divide_45():
-    assert divide_45(10, 2) == 5.0
+def test_multiply_179():
+    assert multiply_179(3, 7) == 21
 
-def test_modulo_45():
-    assert modulo_45(10, 3) == 1
+def test_divide_180():
+    assert divide_180(10, 2) == 5.0

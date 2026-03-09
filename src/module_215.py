@@ -1,13 +1,4 @@
-"""Module 215: arithmetic helpers."""
+"""Module 215: arithmetic helper — min."""
 
-def multiply_215(a, b):
-    return a * b
-
-def subtract_215(a, b):
-    return a - b
-
-def modulo_215(a, b):
-    return a % b
-
-def max_215(a, b):
-    return a if a > b else b
+def min_215(a, b):
+    return a if a < b else b

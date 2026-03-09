@@ -1,14 +1,4 @@
-"""Module 211: arithmetic helpers."""
+"""Module 211: arithmetic helper — multiply."""
 
-def modulo_211(a, b):
-    return a % b
-
-def divide_211(a, b):
-    if b == 0: raise ValueError('division by zero')
-    return a / b
-
-def min_211(a, b):
-    return a if a < b else b
-
-def power_211(a, b):
-    return a ** b
+def multiply_211(a, b):
+    return a * b

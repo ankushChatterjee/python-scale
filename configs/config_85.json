@@ -3,8 +3,8 @@
   "name": "service-config-85",
   "version": "1.5.0",
   "enabled": true,
-  "timeout_ms": 1041,
-  "max_retries": 5,
+  "timeout_ms": 3472,
+  "max_retries": 4,
   "endpoints": [
     "https://api-85.example.com/v1",
     "https://api-85.example.com/v2"
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 80.1,
-    "mem_mb": 3562,
-    "rps": 7130
+    "cpu_pct": 69.3,
+    "mem_mb": 3481,
+    "rps": 1871
   }
 }

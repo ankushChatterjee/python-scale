@@ -3,8 +3,8 @@
   "name": "service-config-48",
   "version": "1.8.3",
   "enabled": false,
-  "timeout_ms": 2787,
-  "max_retries": 10,
+  "timeout_ms": 906,
+  "max_retries": 1,
   "endpoints": [
     "https://api-48.example.com/v1",
     "https://api-48.example.com/v2"
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 67.7,
-    "mem_mb": 514,
-    "rps": 7706
+    "cpu_pct": 74.1,
+    "mem_mb": 1645,
+    "rps": 1890
   }
 }

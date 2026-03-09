@@ -1,13 +1,4 @@
-"""Module 186: arithmetic helpers."""
-
-def modulo_186(a, b):
-    return a % b
-
-def multiply_186(a, b):
-    return a * b
+"""Module 186: arithmetic helper — subtract."""
 
 def subtract_186(a, b):
     return a - b
-
-def add_186(a, b):
-    return a + b

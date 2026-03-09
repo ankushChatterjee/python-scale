@@ -3,8 +3,8 @@
   "name": "service-config-77",
   "version": "1.7.2",
   "enabled": true,
-  "timeout_ms": 2660,
-  "max_retries": 5,
+  "timeout_ms": 3719,
+  "max_retries": 9,
   "endpoints": [
     "https://api-77.example.com/v1",
     "https://api-77.example.com/v2"
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 73.1,
-    "mem_mb": 881,
-    "rps": 7870
+    "cpu_pct": 84.7,
+    "mem_mb": 2553,
+    "rps": 258
   }
 }

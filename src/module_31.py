@@ -1,14 +1,4 @@
-"""Module 31: arithmetic helpers."""
+"""Module 31: arithmetic helper — min."""
 
-def multiply_31(a, b):
-    return a * b
-
-def power_31(a, b):
-    return a ** b
-
-def subtract_31(a, b):
-    return a - b
-
-def divide_31(a, b):
-    if b == 0: raise ValueError('division by zero')
-    return a / b
+def min_31(a, b):
+    return a if a < b else b

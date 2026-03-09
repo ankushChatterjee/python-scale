@@ -7,3 +7,5 @@ dist/
 build/
 .pytest_cache/
 report.xml
+.harness_ti_env
+--report-paths/

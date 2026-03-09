@@ -1,16 +1,19 @@
-"""Tests for module 24."""
+"""Tests for test module 24 — covers src modules [93, 94, 95, 96]."""
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
-from module_24 import min_24, multiply_24, add_24, subtract_24
+from module_93 import modulo_93
+from module_94 import power_94
+from module_95 import min_95
+from module_96 import max_96
 
-def test_min_24():
-    assert min_24(3, 7) == 3
+def test_modulo_93():
+    assert modulo_93(10, 3) == 1
 
-def test_multiply_24():
-    assert multiply_24(3, 7) == 21
+def test_power_94():
+    assert power_94(2, 8) == 256
 
-def test_add_24():
-    assert add_24(2, 3) == 5
+def test_min_95():
+    assert min_95(3, 7) == 3
 
-def test_subtract_24():
-    assert subtract_24(10, 4) == 6
+def test_max_96():
+    assert max_96(3, 7) == 7

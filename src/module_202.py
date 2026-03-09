@@ -1,14 +1,4 @@
-"""Module 202: arithmetic helpers."""
+"""Module 202: arithmetic helper — subtract."""
 
-def divide_202(a, b):
-    if b == 0: raise ValueError('division by zero')
-    return a / b
-
-def multiply_202(a, b):
-    return a * b
-
-def add_202(a, b):
-    return a + b
-
-def modulo_202(a, b):
-    return a % b
+def subtract_202(a, b):
+    return a - b

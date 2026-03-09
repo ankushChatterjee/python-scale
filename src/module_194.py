@@ -1,14 +1,4 @@
-"""Module 194: arithmetic helpers."""
+"""Module 194: arithmetic helper — subtract."""
 
-def divide_194(a, b):
-    if b == 0: raise ValueError('division by zero')
-    return a / b
-
-def power_194(a, b):
-    return a ** b
-
-def max_194(a, b):
-    return a if a > b else b
-
-def min_194(a, b):
-    return a if a < b else b
+def subtract_194(a, b):
+    return a - b

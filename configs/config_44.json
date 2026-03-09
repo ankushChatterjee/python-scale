@@ -3,7 +3,7 @@
   "name": "service-config-44",
   "version": "1.4.4",
   "enabled": true,
-  "timeout_ms": 3355,
+  "timeout_ms": 1855,
   "max_retries": 9,
   "endpoints": [
     "https://api-44.example.com/v1",
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 72.8,
-    "mem_mb": 3494,
-    "rps": 6564
+    "cpu_pct": 64.6,
+    "mem_mb": 4087,
+    "rps": 9455
   }
 }

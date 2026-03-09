@@ -1,13 +1,4 @@
-"""Module 16: arithmetic helpers."""
-
-def subtract_16(a, b):
-    return a - b
-
-def min_16(a, b):
-    return a if a < b else b
+"""Module 16: arithmetic helper — max."""
 
 def max_16(a, b):
     return a if a > b else b
-
-def add_16(a, b):
-    return a + b

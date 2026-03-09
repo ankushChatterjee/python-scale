@@ -1,16 +1,19 @@
-"""Tests for module 49."""
+"""Tests for test module 49 — covers src modules [193, 194, 195, 196]."""
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
-from module_49 import max_49, modulo_49, divide_49, add_49
+from module_193 import add_193
+from module_194 import subtract_194
+from module_195 import multiply_195
+from module_196 import divide_196
 
-def test_max_49():
-    assert max_49(3, 7) == 7
+def test_add_193():
+    assert add_193(2, 3) == 5
 
-def test_modulo_49():
-    assert modulo_49(10, 3) == 1
+def test_subtract_194():
+    assert subtract_194(10, 4) == 6
 
-def test_divide_49():
-    assert divide_49(10, 2) == 5.0
+def test_multiply_195():
+    assert multiply_195(3, 7) == 21
 
-def test_add_49():
-    assert add_49(2, 3) == 5
+def test_divide_196():
+    assert divide_196(10, 2) == 5.0

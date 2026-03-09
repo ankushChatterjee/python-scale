@@ -1,13 +1,4 @@
-"""Module 54: arithmetic helpers."""
+"""Module 54: arithmetic helper — power."""
 
-def subtract_54(a, b):
-    return a - b
-
-def modulo_54(a, b):
-    return a % b
-
-def max_54(a, b):
-    return a if a > b else b
-
-def multiply_54(a, b):
-    return a * b
+def power_54(a, b):
+    return a ** b

@@ -1,14 +1,4 @@
-"""Module 183: arithmetic helpers."""
+"""Module 183: arithmetic helper — min."""
 
-def multiply_183(a, b):
-    return a * b
-
-def divide_183(a, b):
-    if b == 0: raise ValueError('division by zero')
-    return a / b
-
-def subtract_183(a, b):
-    return a - b
-
-def modulo_183(a, b):
-    return a % b
+def min_183(a, b):
+    return a if a < b else b

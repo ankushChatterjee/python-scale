@@ -3,8 +3,8 @@
   "name": "service-config-86",
   "version": "1.6.1",
   "enabled": true,
-  "timeout_ms": 4695,
-  "max_retries": 10,
+  "timeout_ms": 3233,
+  "max_retries": 1,
   "endpoints": [
     "https://api-86.example.com/v1",
     "https://api-86.example.com/v2"
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 81.5,
-    "mem_mb": 2888,
-    "rps": 9221
+    "cpu_pct": 90.1,
+    "mem_mb": 1167,
+    "rps": 3369
   }
 }

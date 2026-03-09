@@ -1,13 +1,4 @@
-"""Module 150: arithmetic helpers."""
-
-def min_150(a, b):
-    return a if a < b else b
+"""Module 150: arithmetic helper — power."""
 
 def power_150(a, b):
     return a ** b
-
-def subtract_150(a, b):
-    return a - b
-
-def max_150(a, b):
-    return a if a > b else b

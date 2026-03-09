@@ -1,14 +1,4 @@
-"""Module 160: arithmetic helpers."""
+"""Module 160: arithmetic helper — max."""
 
-def add_160(a, b):
-    return a + b
-
-def divide_160(a, b):
-    if b == 0: raise ValueError('division by zero')
-    return a / b
-
-def modulo_160(a, b):
-    return a % b
-
-def power_160(a, b):
-    return a ** b
+def max_160(a, b):
+    return a if a > b else b

@@ -1,13 +1,4 @@
-"""Module 34: arithmetic helpers."""
+"""Module 34: arithmetic helper — subtract."""
 
-def add_34(a, b):
-    return a + b
-
-def power_34(a, b):
-    return a ** b
-
-def min_34(a, b):
-    return a if a < b else b
-
-def max_34(a, b):
-    return a if a > b else b
+def subtract_34(a, b):
+    return a - b

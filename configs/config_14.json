@@ -3,8 +3,8 @@
   "name": "service-config-14",
   "version": "1.4.4",
   "enabled": true,
-  "timeout_ms": 1645,
-  "max_retries": 4,
+  "timeout_ms": 1432,
+  "max_retries": 6,
   "endpoints": [
     "https://api-14.example.com/v1",
     "https://api-14.example.com/v2"
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 80.0,
-    "mem_mb": 1212,
-    "rps": 6830
+    "cpu_pct": 72.4,
+    "mem_mb": 3001,
+    "rps": 4474
   }
 }

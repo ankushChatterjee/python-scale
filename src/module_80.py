@@ -1,13 +1,4 @@
-"""Module 80: arithmetic helpers."""
+"""Module 80: arithmetic helper — max."""
 
-def power_80(a, b):
-    return a ** b
-
-def multiply_80(a, b):
-    return a * b
-
-def subtract_80(a, b):
-    return a - b
-
-def min_80(a, b):
-    return a if a < b else b
+def max_80(a, b):
+    return a if a > b else b

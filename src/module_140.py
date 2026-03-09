@@ -1,13 +1,5 @@
-"""Module 140: arithmetic helpers."""
+"""Module 140: arithmetic helper — divide."""
 
-def max_140(a, b):
-    return a if a > b else b
-
-def add_140(a, b):
-    return a + b
-
-def modulo_140(a, b):
-    return a % b
-
-def subtract_140(a, b):
-    return a - b
+def divide_140(a, b):
+    if b == 0: raise ValueError('division by zero')
+    return a / b

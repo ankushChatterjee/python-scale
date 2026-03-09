@@ -3,7 +3,7 @@
   "name": "service-config-66",
   "version": "1.6.1",
   "enabled": false,
-  "timeout_ms": 4001,
+  "timeout_ms": 176,
   "max_retries": 8,
   "endpoints": [
     "https://api-66.example.com/v1",
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 87.2,
-    "mem_mb": 2358,
-    "rps": 9826
+    "cpu_pct": 81.7,
+    "mem_mb": 2562,
+    "rps": 1738
   }
 }

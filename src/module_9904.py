@@ -1,0 +1,4 @@
+"""Module 9904: arithmetic helper — max."""
+
+def max_9904(a, b):
+    return a if a > b else b

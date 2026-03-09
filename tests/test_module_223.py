@@ -1,16 +1,19 @@
-"""Tests for module 223."""
+"""Tests for test module 223 — covers src modules [889, 890, 891, 892]."""
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
-from module_223 import subtract_223, max_223, min_223, power_223
+from module_889 import add_889
+from module_890 import subtract_890
+from module_891 import multiply_891
+from module_892 import divide_892
 
-def test_subtract_223():
-    assert subtract_223(10, 4) == 6
+def test_add_889():
+    assert add_889(2, 3) == 5
 
-def test_max_223():
-    assert max_223(3, 7) == 7
+def test_subtract_890():
+    assert subtract_890(10, 4) == 6
 
-def test_min_223():
-    assert min_223(3, 7) == 3
+def test_multiply_891():
+    assert multiply_891(3, 7) == 21
 
-def test_power_223():
-    assert power_223(2, 8) == 256
+def test_divide_892():
+    assert divide_892(10, 2) == 5.0

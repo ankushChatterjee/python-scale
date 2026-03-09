@@ -1,16 +1,19 @@
-"""Tests for module 3."""
+"""Tests for test module 3 — covers src modules [9, 10, 11, 12]."""
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
-from module_3 import subtract_3, modulo_3, divide_3, add_3
+from module_9 import add_9
+from module_10 import subtract_10
+from module_11 import multiply_11
+from module_12 import divide_12
 
-def test_subtract_3():
-    assert subtract_3(10, 4) == 6
+def test_add_9():
+    assert add_9(2, 3) == 5
 
-def test_modulo_3():
-    assert modulo_3(10, 3) == 1
+def test_subtract_10():
+    assert subtract_10(10, 4) == 6
 
-def test_divide_3():
-    assert divide_3(10, 2) == 5.0
+def test_multiply_11():
+    assert multiply_11(3, 7) == 21
 
-def test_add_3():
-    assert add_3(2, 3) == 5
+def test_divide_12():
+    assert divide_12(10, 2) == 5.0

@@ -3,8 +3,8 @@
   "name": "service-config-54",
   "version": "1.4.4",
   "enabled": false,
-  "timeout_ms": 3135,
-  "max_retries": 4,
+  "timeout_ms": 580,
+  "max_retries": 3,
   "endpoints": [
     "https://api-54.example.com/v1",
     "https://api-54.example.com/v2"
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 75.5,
-    "mem_mb": 1223,
-    "rps": 6042
+    "cpu_pct": 73.3,
+    "mem_mb": 1855,
+    "rps": 4445
   }
 }

@@ -1,13 +1,4 @@
-"""Module 15: arithmetic helpers."""
+"""Module 15: arithmetic helper — min."""
 
-def add_15(a, b):
-    return a + b
-
-def power_15(a, b):
-    return a ** b
-
-def subtract_15(a, b):
-    return a - b
-
-def multiply_15(a, b):
-    return a * b
+def min_15(a, b):
+    return a if a < b else b

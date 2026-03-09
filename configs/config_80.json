@@ -3,8 +3,8 @@
   "name": "service-config-80",
   "version": "1.0.0",
   "enabled": true,
-  "timeout_ms": 4904,
-  "max_retries": 9,
+  "timeout_ms": 1313,
+  "max_retries": 7,
   "endpoints": [
     "https://api-80.example.com/v1",
     "https://api-80.example.com/v2"
@@ -20,8 +20,8 @@
     "team:platform"
   ],
   "thresholds": {
-    "cpu_pct": 79.7,
-    "mem_mb": 3000,
-    "rps": 2102
+    "cpu_pct": 64.5,
+    "mem_mb": 1518,
+    "rps": 6074
   }
 }

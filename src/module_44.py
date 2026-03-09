@@ -1,13 +1,5 @@
-"""Module 44: arithmetic helpers."""
+"""Module 44: arithmetic helper — divide."""
 
-def subtract_44(a, b):
-    return a - b
-
-def min_44(a, b):
-    return a if a < b else b
-
-def modulo_44(a, b):
-    return a % b
-
-def max_44(a, b):
-    return a if a > b else b
+def divide_44(a, b):
+    if b == 0: raise ValueError('division by zero')
+    return a / b

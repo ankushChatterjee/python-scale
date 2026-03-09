@@ -1,13 +1,5 @@
-"""Module 180: arithmetic helpers."""
+"""Module 180: arithmetic helper — divide."""
 
-def subtract_180(a, b):
-    return a - b
-
-def modulo_180(a, b):
-    return a % b
-
-def power_180(a, b):
-    return a ** b
-
-def multiply_180(a, b):
-    return a * b
+def divide_180(a, b):
+    if b == 0: raise ValueError('division by zero')
+    return a / b
