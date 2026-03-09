@@ -1,0 +1,27 @@
+{
+  "config_id": 52,
+  "name": "service-config-52",
+  "version": "1.2.2",
+  "enabled": true,
+  "timeout_ms": 3533,
+  "max_retries": 10,
+  "endpoints": [
+    "https://api-52.example.com/v1",
+    "https://api-52.example.com/v2"
+  ],
+  "feature_flags": {
+    "enable_cache": true,
+    "enable_tracing": false,
+    "enable_metrics": true
+  },
+  "tags": [
+    "env:prod",
+    "region:us-east-0",
+    "team:platform"
+  ],
+  "thresholds": {
+    "cpu_pct": 86.0,
+    "mem_mb": 888,
+    "rps": 6897
+  }
+}

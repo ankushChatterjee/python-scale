@@ -1,0 +1,27 @@
+{
+  "config_id": 20,
+  "name": "service-config-20",
+  "version": "1.0.0",
+  "enabled": true,
+  "timeout_ms": 2873,
+  "max_retries": 10,
+  "endpoints": [
+    "https://api-20.example.com/v1",
+    "https://api-20.example.com/v2"
+  ],
+  "feature_flags": {
+    "enable_cache": true,
+    "enable_tracing": true,
+    "enable_metrics": true
+  },
+  "tags": [
+    "env:prod",
+    "region:us-east-0",
+    "team:platform"
+  ],
+  "thresholds": {
+    "cpu_pct": 84.2,
+    "mem_mb": 2917,
+    "rps": 1415
+  }
+}

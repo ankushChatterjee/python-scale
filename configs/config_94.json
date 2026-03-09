@@ -1,0 +1,27 @@
+{
+  "config_id": 94,
+  "name": "service-config-94",
+  "version": "1.4.4",
+  "enabled": true,
+  "timeout_ms": 1389,
+  "max_retries": 10,
+  "endpoints": [
+    "https://api-94.example.com/v1",
+    "https://api-94.example.com/v2"
+  ],
+  "feature_flags": {
+    "enable_cache": true,
+    "enable_tracing": false,
+    "enable_metrics": true
+  },
+  "tags": [
+    "env:prod",
+    "region:us-east-2",
+    "team:platform"
+  ],
+  "thresholds": {
+    "cpu_pct": 61.7,
+    "mem_mb": 590,
+    "rps": 4558
+  }
+}

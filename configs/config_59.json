@@ -1,0 +1,27 @@
+{
+  "config_id": 59,
+  "name": "service-config-59",
+  "version": "1.9.4",
+  "enabled": true,
+  "timeout_ms": 1781,
+  "max_retries": 2,
+  "endpoints": [
+    "https://api-59.example.com/v1",
+    "https://api-59.example.com/v2"
+  ],
+  "feature_flags": {
+    "enable_cache": false,
+    "enable_tracing": false,
+    "enable_metrics": true
+  },
+  "tags": [
+    "env:prod",
+    "region:us-east-3",
+    "team:platform"
+  ],
+  "thresholds": {
+    "cpu_pct": 89.0,
+    "mem_mb": 2526,
+    "rps": 3494
+  }
+}

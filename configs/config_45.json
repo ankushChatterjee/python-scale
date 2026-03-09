@@ -1,0 +1,27 @@
+{
+  "config_id": 45,
+  "name": "service-config-45",
+  "version": "1.5.0",
+  "enabled": false,
+  "timeout_ms": 214,
+  "max_retries": 5,
+  "endpoints": [
+    "https://api-45.example.com/v1",
+    "https://api-45.example.com/v2"
+  ],
+  "feature_flags": {
+    "enable_cache": false,
+    "enable_tracing": true,
+    "enable_metrics": true
+  },
+  "tags": [
+    "env:prod",
+    "region:us-east-1",
+    "team:platform"
+  ],
+  "thresholds": {
+    "cpu_pct": 78.8,
+    "mem_mb": 2118,
+    "rps": 6138
+  }
+}

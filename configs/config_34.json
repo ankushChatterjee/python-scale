@@ -1,0 +1,27 @@
+{
+  "config_id": 34,
+  "name": "service-config-34",
+  "version": "1.4.4",
+  "enabled": true,
+  "timeout_ms": 4808,
+  "max_retries": 5,
+  "endpoints": [
+    "https://api-34.example.com/v1",
+    "https://api-34.example.com/v2"
+  ],
+  "feature_flags": {
+    "enable_cache": true,
+    "enable_tracing": false,
+    "enable_metrics": true
+  },
+  "tags": [
+    "env:prod",
+    "region:us-east-2",
+    "team:platform"
+  ],
+  "thresholds": {
+    "cpu_pct": 94.7,
+    "mem_mb": 1465,
+    "rps": 459
+  }
+}

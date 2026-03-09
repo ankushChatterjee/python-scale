@@ -1,0 +1,27 @@
+{
+  "config_id": 3,
+  "name": "service-config-3",
+  "version": "1.3.3",
+  "enabled": false,
+  "timeout_ms": 1397,
+  "max_retries": 5,
+  "endpoints": [
+    "https://api-3.example.com/v1",
+    "https://api-3.example.com/v2"
+  ],
+  "feature_flags": {
+    "enable_cache": false,
+    "enable_tracing": false,
+    "enable_metrics": true
+  },
+  "tags": [
+    "env:prod",
+    "region:us-east-3",
+    "team:platform"
+  ],
+  "thresholds": {
+    "cpu_pct": 79.3,
+    "mem_mb": 2518,
+    "rps": 6784
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "config_id": 15,
+  "name": "service-config-15",
+  "version": "1.5.0",
+  "enabled": false,
+  "timeout_ms": 457,
+  "max_retries": 6,
+  "endpoints": [
+    "https://api-15.example.com/v1",
+    "https://api-15.example.com/v2"
+  ],
+  "feature_flags": {
+    "enable_cache": false,
+    "enable_tracing": true,
+    "enable_metrics": true
+  },
+  "tags": [
+    "env:prod",
+    "region:us-east-3",
+    "team:platform"
+  ],
+  "thresholds": {
+    "cpu_pct": 86.1,
+    "mem_mb": 3144,
+    "rps": 6346
+  }
+}

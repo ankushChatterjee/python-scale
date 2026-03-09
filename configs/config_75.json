@@ -1,0 +1,27 @@
+{
+  "config_id": 75,
+  "name": "service-config-75",
+  "version": "1.5.0",
+  "enabled": false,
+  "timeout_ms": 3799,
+  "max_retries": 4,
+  "endpoints": [
+    "https://api-75.example.com/v1",
+    "https://api-75.example.com/v2"
+  ],
+  "feature_flags": {
+    "enable_cache": false,
+    "enable_tracing": true,
+    "enable_metrics": true
+  },
+  "tags": [
+    "env:prod",
+    "region:us-east-3",
+    "team:platform"
+  ],
+  "thresholds": {
+    "cpu_pct": 74.5,
+    "mem_mb": 3645,
+    "rps": 7530
+  }
+}

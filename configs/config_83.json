@@ -1,0 +1,27 @@
+{
+  "config_id": 83,
+  "name": "service-config-83",
+  "version": "1.3.3",
+  "enabled": true,
+  "timeout_ms": 4834,
+  "max_retries": 9,
+  "endpoints": [
+    "https://api-83.example.com/v1",
+    "https://api-83.example.com/v2"
+  ],
+  "feature_flags": {
+    "enable_cache": false,
+    "enable_tracing": false,
+    "enable_metrics": true
+  },
+  "tags": [
+    "env:prod",
+    "region:us-east-3",
+    "team:platform"
+  ],
+  "thresholds": {
+    "cpu_pct": 67.4,
+    "mem_mb": 2945,
+    "rps": 8000
+  }
+}

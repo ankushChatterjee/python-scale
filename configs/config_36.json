@@ -1,0 +1,27 @@
+{
+  "config_id": 36,
+  "name": "service-config-36",
+  "version": "1.6.1",
+  "enabled": false,
+  "timeout_ms": 4169,
+  "max_retries": 5,
+  "endpoints": [
+    "https://api-36.example.com/v1",
+    "https://api-36.example.com/v2"
+  ],
+  "feature_flags": {
+    "enable_cache": true,
+    "enable_tracing": false,
+    "enable_metrics": true
+  },
+  "tags": [
+    "env:prod",
+    "region:us-east-0",
+    "team:platform"
+  ],
+  "thresholds": {
+    "cpu_pct": 87.2,
+    "mem_mb": 1198,
+    "rps": 5872
+  }
+}

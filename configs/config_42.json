@@ -1,0 +1,27 @@
+{
+  "config_id": 42,
+  "name": "service-config-42",
+  "version": "1.2.2",
+  "enabled": false,
+  "timeout_ms": 2205,
+  "max_retries": 8,
+  "endpoints": [
+    "https://api-42.example.com/v1",
+    "https://api-42.example.com/v2"
+  ],
+  "feature_flags": {
+    "enable_cache": true,
+    "enable_tracing": false,
+    "enable_metrics": true
+  },
+  "tags": [
+    "env:prod",
+    "region:us-east-2",
+    "team:platform"
+  ],
+  "thresholds": {
+    "cpu_pct": 93.9,
+    "mem_mb": 1464,
+    "rps": 5649
+  }
+}

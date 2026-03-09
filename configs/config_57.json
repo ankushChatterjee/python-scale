@@ -1,0 +1,27 @@
+{
+  "config_id": 57,
+  "name": "service-config-57",
+  "version": "1.7.2",
+  "enabled": false,
+  "timeout_ms": 850,
+  "max_retries": 4,
+  "endpoints": [
+    "https://api-57.example.com/v1",
+    "https://api-57.example.com/v2"
+  ],
+  "feature_flags": {
+    "enable_cache": false,
+    "enable_tracing": false,
+    "enable_metrics": true
+  },
+  "tags": [
+    "env:prod",
+    "region:us-east-1",
+    "team:platform"
+  ],
+  "thresholds": {
+    "cpu_pct": 82.5,
+    "mem_mb": 2701,
+    "rps": 449
+  }
+}

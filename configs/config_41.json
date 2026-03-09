@@ -1,0 +1,27 @@
+{
+  "config_id": 41,
+  "name": "service-config-41",
+  "version": "1.1.1",
+  "enabled": true,
+  "timeout_ms": 3097,
+  "max_retries": 9,
+  "endpoints": [
+    "https://api-41.example.com/v1",
+    "https://api-41.example.com/v2"
+  ],
+  "feature_flags": {
+    "enable_cache": false,
+    "enable_tracing": false,
+    "enable_metrics": true
+  },
+  "tags": [
+    "env:prod",
+    "region:us-east-1",
+    "team:platform"
+  ],
+  "thresholds": {
+    "cpu_pct": 77.6,
+    "mem_mb": 1372,
+    "rps": 2795
+  }
+}

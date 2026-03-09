@@ -1,0 +1,27 @@
+{
+  "config_id": 58,
+  "name": "service-config-58",
+  "version": "1.8.3",
+  "enabled": true,
+  "timeout_ms": 514,
+  "max_retries": 6,
+  "endpoints": [
+    "https://api-58.example.com/v1",
+    "https://api-58.example.com/v2"
+  ],
+  "feature_flags": {
+    "enable_cache": true,
+    "enable_tracing": false,
+    "enable_metrics": true
+  },
+  "tags": [
+    "env:prod",
+    "region:us-east-2",
+    "team:platform"
+  ],
+  "thresholds": {
+    "cpu_pct": 68.5,
+    "mem_mb": 771,
+    "rps": 9350
+  }
+}

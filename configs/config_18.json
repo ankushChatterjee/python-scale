@@ -1,0 +1,27 @@
+{
+  "config_id": 18,
+  "name": "service-config-18",
+  "version": "1.8.3",
+  "enabled": false,
+  "timeout_ms": 916,
+  "max_retries": 9,
+  "endpoints": [
+    "https://api-18.example.com/v1",
+    "https://api-18.example.com/v2"
+  ],
+  "feature_flags": {
+    "enable_cache": true,
+    "enable_tracing": false,
+    "enable_metrics": true
+  },
+  "tags": [
+    "env:prod",
+    "region:us-east-2",
+    "team:platform"
+  ],
+  "thresholds": {
+    "cpu_pct": 91.9,
+    "mem_mb": 318,
+    "rps": 2461
+  }
+}

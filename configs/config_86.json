@@ -1,0 +1,27 @@
+{
+  "config_id": 86,
+  "name": "service-config-86",
+  "version": "1.6.1",
+  "enabled": true,
+  "timeout_ms": 4695,
+  "max_retries": 10,
+  "endpoints": [
+    "https://api-86.example.com/v1",
+    "https://api-86.example.com/v2"
+  ],
+  "feature_flags": {
+    "enable_cache": true,
+    "enable_tracing": false,
+    "enable_metrics": true
+  },
+  "tags": [
+    "env:prod",
+    "region:us-east-2",
+    "team:platform"
+  ],
+  "thresholds": {
+    "cpu_pct": 81.5,
+    "mem_mb": 2888,
+    "rps": 9221
+  }
+}

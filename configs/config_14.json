@@ -1,0 +1,27 @@
+{
+  "config_id": 14,
+  "name": "service-config-14",
+  "version": "1.4.4",
+  "enabled": true,
+  "timeout_ms": 1645,
+  "max_retries": 4,
+  "endpoints": [
+    "https://api-14.example.com/v1",
+    "https://api-14.example.com/v2"
+  ],
+  "feature_flags": {
+    "enable_cache": true,
+    "enable_tracing": false,
+    "enable_metrics": true
+  },
+  "tags": [
+    "env:prod",
+    "region:us-east-2",
+    "team:platform"
+  ],
+  "thresholds": {
+    "cpu_pct": 80.0,
+    "mem_mb": 1212,
+    "rps": 6830
+  }
+}

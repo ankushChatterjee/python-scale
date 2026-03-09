@@ -1,0 +1,27 @@
+{
+  "config_id": 93,
+  "name": "service-config-93",
+  "version": "1.3.3",
+  "enabled": false,
+  "timeout_ms": 4749,
+  "max_retries": 10,
+  "endpoints": [
+    "https://api-93.example.com/v1",
+    "https://api-93.example.com/v2"
+  ],
+  "feature_flags": {
+    "enable_cache": false,
+    "enable_tracing": false,
+    "enable_metrics": true
+  },
+  "tags": [
+    "env:prod",
+    "region:us-east-1",
+    "team:platform"
+  ],
+  "thresholds": {
+    "cpu_pct": 63.0,
+    "mem_mb": 471,
+    "rps": 2649
+  }
+}

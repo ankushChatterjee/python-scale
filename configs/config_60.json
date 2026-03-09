@@ -1,0 +1,27 @@
+{
+  "config_id": 60,
+  "name": "service-config-60",
+  "version": "1.0.0",
+  "enabled": false,
+  "timeout_ms": 4903,
+  "max_retries": 4,
+  "endpoints": [
+    "https://api-60.example.com/v1",
+    "https://api-60.example.com/v2"
+  ],
+  "feature_flags": {
+    "enable_cache": true,
+    "enable_tracing": true,
+    "enable_metrics": true
+  },
+  "tags": [
+    "env:prod",
+    "region:us-east-0",
+    "team:platform"
+  ],
+  "thresholds": {
+    "cpu_pct": 88.5,
+    "mem_mb": 1210,
+    "rps": 5483
+  }
+}
