@@ -1,17 +1,14 @@
 #!/usr/bin/env python3
 """
 Generate a scale-test Python repo with:
-  - 10,000 source modules (src/module_N.py)
-  - 2,500 test files (tests/test_module_N.py), 4 tests each = 10,000 tests total
+  - 5,000 source modules (src/module_N.py)
+  - 1,250 test files (tests/test_module_N.py), 4 tests each = 5,000 tests total
     Each test file imports from 4 consecutive source modules:
       test_module_1  → src/module_1,  module_2,  module_3,  module_4
       test_module_2  → src/module_5,  module_6,  module_7,  module_8
       ...
-      test_module_2500 → src/module_9997, module_9998, module_9999, module_10000
+      test_module_1250 → src/module_4997, module_4998, module_4999, module_5000
   - 100 fake JSON config files (configs/config_N.json)
-
-This increases the hash array from ~606 (1k-test setup) to ~12,605 entries,
-stressing the GIN index in SkipTestsIfPossible significantly.
 """
 
 import json
@@ -24,10 +21,10 @@ SRC_DIR   = os.path.join(REPO_ROOT, "src")
 TESTS_DIR = os.path.join(REPO_ROOT, "tests")
 CONFIGS_DIR = os.path.join(REPO_ROOT, "configs")
 
-NUM_TEST_FILES   = 2500   # 2500 test files × 4 tests = 10,000 tests
+NUM_TEST_FILES   = 1250   # 1250 test files × 4 tests = 5,000 tests
 TESTS_PER_FILE   = 4
 MODULES_PER_TEST = 4      # each test file imports from 4 source modules
-NUM_SOURCE_FILES = NUM_TEST_FILES * MODULES_PER_TEST  # 10,000 source modules
+NUM_SOURCE_FILES = NUM_TEST_FILES * MODULES_PER_TEST  # 5,000 source modules
 NUM_CONFIGS      = 100
 
 OPERATIONS = ["add", "subtract", "multiply", "divide", "modulo", "power", "min", "max"]

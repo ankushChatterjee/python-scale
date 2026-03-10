@@ -1,4 +1,0 @@
-"""Module 9264: arithmetic helper — max."""
-
-def max_9264(a, b):
-    return a if a > b else b

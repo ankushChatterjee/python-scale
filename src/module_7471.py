@@ -1,4 +1,0 @@
-"""Module 7471: arithmetic helper — min."""
-
-def min_7471(a, b):
-    return a if a < b else b
