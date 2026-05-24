@@ -1,7 +1,7 @@
 """Tests for test module 1 — covers src modules [1, 2, 3, 4]."""
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
-from module_1 import add_1
+from module_513 import add_513
 from module_2 import subtract_2
 from module_3 import multiply_3
 from module_4 import divide_4
